@@ -1,0 +1,23 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    left: 0;
+    top: 0;
+}
+
+input.default,
+.multiline {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
+    padding: 16px 12px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    max-width: 200px;
+}
