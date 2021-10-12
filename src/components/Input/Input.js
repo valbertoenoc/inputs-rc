@@ -1,10 +1,9 @@
-import './styles.css';
+import './styles.scss';
 
-function Input({ props }) {
+function Input({ label }) {
     return (
         <div className="input-container">
-            <label for="input">label</label>
-
+            <label htmlFor="input">{label}</label>
             <input type="text" placeholder="Placeholder" id="input" className="default" />
         </div>
     );
